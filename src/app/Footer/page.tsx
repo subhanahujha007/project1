@@ -1,6 +1,6 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
-import {FaInstagramSquare} from "react-icons/fa"
+import {FaInstagramSquare, FaGithub, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
+
 import Link from "next/link";
 const FooterSocialLinks = [
   {
@@ -27,7 +27,7 @@ const FooterSocialLinks = [
 const FooterAboutLinks = [
   {
     name: "Learn about me",
-    href: "/subhanshujha.pdf",
+    href: "/subhanshu.pdf",
   },
   {
     name: "subhanshujha001@gmail.com",
