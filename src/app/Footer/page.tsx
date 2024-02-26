@@ -18,12 +18,9 @@ const Footer = () => {
 
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Community</div>
+                   
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Youtube</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxGithubLogo />
+                        <a href="https://github.com/subhanahujha007"  ><RxGithubLogo /></a>
                         <span className="text-[15px] ml-[6px]">Github</span>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
@@ -58,13 +55,13 @@ const Footer = () => {
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   
-                        <span className="text-[15px] ml-[6px]">mifwebchain@gmail.com</span>    
+                        <span className="text-[15px] ml-[6px]">subhanshujha001@gmail.com</span>    
                     </p>
                 </div>
             </div>
 
             <div className="mb-[20px] text-[15px] text-center">
-                &copy; WebChain Dev 2023 Inc. All rights reserved
+                &copy; Subhanshu Jha Dev 2024 Inc. All rights reserved
             </div>
         </div>
     </div>
