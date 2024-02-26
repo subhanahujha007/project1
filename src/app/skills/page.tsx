@@ -1,3 +1,4 @@
+import Footer from "../Footer/page";
 import {
     Backend_skill,
     Frontend_skill,
@@ -11,6 +12,7 @@ import {
   
   const Skills = () => {
     return (
+      <>
       <section
         id="skills"
         className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-80 py-20"
@@ -89,6 +91,8 @@ import {
           </div>
         </div>
       </section>
+      <Footer/>
+      </>
     );
   };
   
