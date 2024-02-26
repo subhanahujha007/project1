@@ -1,8 +1,9 @@
 import React from "react";
 import ProjectCard from "../../../utils/Projectcard";
-
+import Footer from "../Footer/page";
 const Projects = () => {
   return (
+    <>
     <div
       className="flex flex-col items-center justify-center py-20"
       id="projects"
@@ -28,6 +29,8 @@ const Projects = () => {
         />
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 
