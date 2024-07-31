@@ -27,7 +27,7 @@ const FooterSocialLinks = [
 const FooterAboutLinks = [
   {
     name: "Learn about me",
-    href: "/subhanshu.pdf",
+    href: "/subhanshujha.pdf",
   },
   {
     name: "subhanshujha001@gmail.com",
