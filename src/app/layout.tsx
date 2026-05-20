@@ -24,31 +24,11 @@ export default function RootLayout({
         <StarsCanvas/>
         <Navbar/>
         {children}
-        <Script
-  id="chatsop-init"
-  dangerouslySetInnerHTML={{
-    __html: `
-      (function() {
-        const script = document.createElement('script');
-        script.src = "https://cdn.chatsop.com/widget.js";
-        script.async = true;
-        script.onload = function() {
-          ChatSOP.init({
-            key: "chatsop_904b8fdb6875972c8cab0b8d90e6fc37f3a4a98037ffc587",
-            primaryColor: "",
-            secondaryColor: "",
-            width: 400,
-            height: 600,
-            position: "bottom-right",
-            botName: "",
-            botMessage: "",
-            backgroundColor: ""
-          });
-        };
-        document.head.appendChild(script);
-      })();
-    `
-  }}
+      <Script
+  src="http://localhost:4000/sdk/widget.js"
+  data-key="chatsop_904b8fdb6875972c8cab0b8d90e6fc37f3a4a98037ffc587"
+  data-api-base-url="http://localhost:4000"
+  strategy="afterInteractive"
 />
       </body>
     </html>
