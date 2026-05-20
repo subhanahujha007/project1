@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from 'next/script'
 import { Inter } from "next/font/google";
 import Footer from "./Footer/page";
 import "./globals.css";
