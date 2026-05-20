@@ -23,13 +23,7 @@ export default function RootLayout({
         <StarsCanvas/>
         <Navbar/>
         {children}
-                <Script
-          src="http://localhost:5173/src/main.tsx"
-          data-key="chatsop_ca830444600c9f31a7b58204d76dc21eed45de1f59b05a62"
-          data-api-base-url="http://localhost:4000"
-          type="module"
-          strategy="afterInteractive"
-        />
+              <script src="http://localhost:4000/sdk/widget.js" data-key="chatsop_ca830444600c9f31a7b58204d76dc21eed45de1f59b05a62" data-api-base-url="http://localhost:4000"></script>
 
         </body>
     </html>
