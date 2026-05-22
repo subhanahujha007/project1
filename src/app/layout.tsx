@@ -25,11 +25,12 @@ export default function RootLayout({
         <Navbar/>
         {children}
  <Script
-  src="http://localhost:4000/sdk/widget.js"
-  data-key="chatsop_02723dbdaa4ac670d1221f4b5640e84522797887a9735755"
-  data-api-base-url="http://localhost:4000"
+  src="https://chatsop-i2kb.onrender.com/sdk/widget.js"
+  data-key="chatsop_0cea63407b6e0c8d9d9e329f6623154f83cf146f02301d60"
+  data-api-base-url="https://chatsop-i2kb.onrender.com"
   strategy="afterInteractive"
-/>   </body>
+/>
+      </body>
     </html>
   );
 }
