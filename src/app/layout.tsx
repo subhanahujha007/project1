@@ -26,7 +26,7 @@ export default function RootLayout({
         {children}
  <Script
   src="http://localhost:4000/sdk/widget.js"
-  data-key="chatsop_87d077365db2451249d77214216fd33d87201b1a4172d62e"
+  data-key="chatsop_02723dbdaa4ac670d1221f4b5640e84522797887a9735755"
   data-api-base-url="http://localhost:4000"
   strategy="afterInteractive"
 />   </body>
