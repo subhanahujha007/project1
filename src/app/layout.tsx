@@ -24,9 +24,9 @@ export default function RootLayout({
         <StarsCanvas/>
         <Navbar/>
         {children}
- <Script
+<Script
   src="https://chatsop-i2kb.onrender.com/sdk/widget.js"
-  data-key="chatsop_0cea63407b6e0c8d9d9e329f6623154f83cf146f02301d60"
+  data-key="chatsop_9fc34d32adb1e958b94d8a26adb09eea08b946302948fc08"
   data-api-base-url="https://chatsop-i2kb.onrender.com"
   strategy="afterInteractive"
 />
