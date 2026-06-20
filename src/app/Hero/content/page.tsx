@@ -7,7 +7,7 @@ import Image from "next/image"
 import { motion} from "framer-motion"
 import { slideInFromTop } from '../../../../utils/motion'
 import { SparklesIcon } from '@heroicons/react/16/solid'
-
+import Link from "next/link";
 const page
  = () => {
   return (
@@ -45,21 +45,29 @@ const page
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m  SUBHANSHU JHA with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          I&apos;m Subhanshu Jha — Frontend Engineer specializing in JavaScript,
+          React.js, Next.js, and TypeScript. I design performant, accessible
+          user interfaces and build scalable frontend architectures for
+          production SaaS. Explore my projects, skills, and contact details
+          below.
         </motion.p>
+       
         <div className='flex flex-row w-[100%]  justify-start gap-5    '>
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-3 px-3 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn More!
+          <Link href="/subhanshujha.pdf" download>
+            Download Resume
+          </Link>
         </motion.a>
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-3 px-3 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Contact Me!
+          <Link href="mailto:subhanshujha001@gmail.com">
+            Contact Me!
+          </Link>
         </motion.a>
         </div>
       </div>

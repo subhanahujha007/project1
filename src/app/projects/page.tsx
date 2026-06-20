@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import ProjectCard from "../../../utils/Projectcard";
 import Footer from "../Footer/page";
@@ -13,20 +14,21 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/chatsop.png"
+          link="https://chatsop.in"
+          title="ChatSOP — Production AI SaaS"
+          description="Production-grade RAG SaaS with real-time chat, WebSockets, vector search, and embeddable widgets."
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/algorithm.png"
+          link="https://algoritm-visualizer-n6ue.vercel.app/"
+          title="Algorithm Visualizer"
+          description="Interactive visualizations for sorting and pathfinding algorithms, with step-by-step controls and animations."
         />
-        <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
+
+          
+      
+       
       </div>
     </div>
     <Footer/>

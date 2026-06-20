@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
 
         <div className="mb-[20px] text-[15px] text-center">
-          &copy; Subhanshu Jha 2024. All rights reserved
+          &copy; Subhanshu Jha 2026. All rights reserved
         </div>
       </div>
     </div>
